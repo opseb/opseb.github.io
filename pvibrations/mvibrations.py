@@ -76,6 +76,9 @@ class SDOFOscillator:
     def set_z0(self, z0):
         self.z0 = z0
 
+    def set_title(self, title):
+        self.title = title
+
     def get_x(self):
         return self.x
 
@@ -88,8 +91,11 @@ class SDOFOscillator:
     def get_time_true(self):
         return self.time_true
 
-    def set_title(self, title):
-        self.title = title
+    def get_title(self):
+        return self.title
+
+    def get_h(self):
+        return self.h
 
     def plot_values(self):
         plt.figure(figsize=(12, 4))
