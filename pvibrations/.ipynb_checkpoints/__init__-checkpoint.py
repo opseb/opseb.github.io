@@ -1,1 +1,0 @@
-from .mvibrations import SDOFOscillator
